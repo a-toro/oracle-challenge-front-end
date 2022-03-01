@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.main {
+    display: grid;
+    margin: 10px 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
